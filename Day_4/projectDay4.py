@@ -58,9 +58,9 @@ while continue_play:
         print(scissors)
         computer_choose = random.randint(0, 2)
         if computer_choose == 1:
-            print("Computer chose:\n" + paper + "\nYou lose")
+            print("Computer chose:\n" + paper + "\nYou won")
         elif computer_choose == 0:
-            print("Computer chose:\n" + rock + "\nYou won")
+            print("Computer chose:\n" + rock + "\nYou lose")
         elif human_choose == computer_choose:
             print("Computer chose:\n" + scissors + "\nDraw")
     else:
